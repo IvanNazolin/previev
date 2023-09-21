@@ -200,7 +200,7 @@ function App() {
 
       <Suspense fallback={null}><Heart setAnimationFinished={setAnimationFinished} animationFinished={animationFinished}/></Suspense>
       
-      <Cloud count={7} radius={35} /> 
+      <Cloud count={7} radius={30} /> 
 
     </Canvas>
   );
