@@ -16,8 +16,8 @@ softShadows()
 
 
 const HINT_PHRASE = ""
-//14 words
-const birthdayText = "Hear can be you`r text for congratulations."
+//14 words Hear can be you`r text for congratulations.
+const birthdayText = "greeting for text you`r be can Hear"
 
 
 const word_list = birthdayText.split(" ").reverse()
@@ -200,7 +200,7 @@ function App() {
 
       <Suspense fallback={null}><Heart setAnimationFinished={setAnimationFinished} animationFinished={animationFinished}/></Suspense>
       
-      <Cloud count={7} radius={20} /> 
+      <Cloud count={7} radius={35} /> 
 
     </Canvas>
   );
